@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.resultado {
+    margin-top: 20px;
+}
+.categoria-a {
+    color: black;
+}
+.categoria-b {
+    color: green;
+}
+.categoria-c {
+    color: blue;
+}

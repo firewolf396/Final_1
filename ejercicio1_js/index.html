@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Estudiantes</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Registro de Estudiantes</h1>
+    <form id="studentForm">
+        <label for="code">Código:</label>
+        <input type="text" id="code" required>
+
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" required>
+
+        <label for="first20">Primer 20%:</label>
+        <input type="number" id="first20" step="0.1" min="0" max="5" required>
+
+        <label for="second20">Segundo 20%:</label>
+        <input type="number" id="second20" step="0.1" min="0" max="5" required>
+
+        <label for="third20">Tercer 20%:</label>
+        <input type="number" id="third20" step="0.1" min="0" max="5" required>
+
+        <label for="final40">Final 40%:</label>
+        <input type="number" id="final40" step="0.1" min="0" max="5" required>
+
+        <button type="submit">Agregar Estudiante</button>
+    </form>
+
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nombre</th>
+                <th>Primer 20%</th>
+                <th>Segundo 20%</th>
+                <th>Tercer 20%</th>
+                <th>Final 40%</th>
+                <th>Definitiva</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+</html>
